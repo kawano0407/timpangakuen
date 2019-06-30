@@ -1,0 +1,265 @@
+@charset "utf-8";
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #cccccc;
+	color: #333333;
+	line-height: 2;
+	font-size: 15px;
+}
+p, h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+}
+img {
+	vertical-align: bottom
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #3583aa;
+	text-decoration: none;
+}
+a:visited {
+	color: #788d98;
+}
+a:hover {
+	text-decoration: underline;
+}
+header {
+	width: 960px;
+	height: 100px;
+	margin: 0 auto;
+}
+.logo {
+	float: left;
+}
+.global-nav {
+	float: right;
+}
+.global-nav li {
+	float: left;
+	margin: 0 30px;
+	font-size: 40px;
+	list-style: none;
+	font-family: 'Shadows Into Light', cursive;
+}
+.global-nav li a {
+	color: #ffffff;
+}
+.global-nav li a:hover {
+	border-bottom: 2px solid #ffffff;
+	text-decoration: none;
+	padding-bottom: 3px;
+}
+#wrap {
+	clear: both;
+}
+.content {
+	width: 960px;
+	margin: 0 auto;
+}
+footer {
+	text-align: center;
+	color: #ffffff;
+	padding: 20px 0;
+}
+footer small {
+	font-size: 12px;
+}
+#index h1 {
+	font-size: 100px;
+	line-height: 1;
+	color: #ffffff;
+	font-family: 'Shadows Into Light', cursive;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	border: none;
+}
+#index p {
+	font-size: 16px;
+	color: #ffffff;
+}
+.btn a {
+	background-color: #009cd3;
+	color: #ffffff;
+	font-size: 30px;
+	font-family: 'Shadows Into Light', cursive;
+	width: 185px;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	border: 3px solid #009cd3;
+}
+.btn a:hover {
+	text-decoration: none;
+	background-color: #ffffff;
+	color: #009cd3;
+}
+#index footer {
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 150px;
+}
+#index {
+	background-image: url(index-bg2.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+#about {
+	background-image: url(abouttop.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+#wrap {
+	clear: both;
+	background-color: #ffffff;
+	margin-top: 220px;
+	padding: 35px 0;
+}
+.main-center {
+	margin: 0 auto;
+	width: 960px;
+}
+h1 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 36px;
+	border-bottom: 1px solid #cccccc;
+}
+h2 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 24px;
+}
+.icon:before {
+	content: "☆";
+	padding-right: 10px;
+}
+#about .profile-txt {
+	width: 540px;
+	float: left;
+	margin-right: 20px;
+}
+#about .profile-txt span {
+	font-weight: bold;
+}
+#about .profile-image {
+	float: right;
+	margin-left: 20px;
+}
+#about .career th {
+	width: 240px;
+	background-color: #f0f0f0;
+	padding: 12px 0;
+	border: 1px solid #cccccc;
+}
+#about .career td {
+	width: 640px;
+	padding: 12px 0 12px 40px;
+	border: 1px solid #cccccc;
+}
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+#about footer {
+	background-color: #767671;
+	text-align: center;
+	color: #ffffff;
+	padding: 20px;
+}
+#index #wrap {
+	background-color: transparent;
+	margin-top: 0;
+	padding: 0;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+section {
+	margin-bottom: 35px;
+}
+
+/*portfolio.html*/
+
+#portfolio {
+	background-image: url(taiha.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+.main{
+  width: 700px;
+  margin: 0 10px;
+  float: left;
+}
+
+.sidebar{
+  width: 200px;
+  margin: 0 10px 0 30px;
+  float: right;
+  font-family: 'Bitter',serif;
+}
+
+a img:hover{
+  opacity: 0.8;
+}
+
+.sidebar h2{
+  margin-bottom: 10px;
+}
+
+.sidebar ul{
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.sidebar ul a{
+  color: #333333;
+}
+
+#portfolio footer {
+	background-color: #767671;
+	color: #ffffff;
+}
+
+/*photograph.html*/
+
+#photograph{
+  background-image: url(toshi.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+#photograph footer{
+  background-color: #767671;
+}
+
+/*contact start*/
+
+#contact {
+	background-image: url(neko.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+
+#contact footer{
+  background-color: #767671;
+}
