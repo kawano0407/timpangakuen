@@ -235,6 +235,8 @@ a img:hover{
 	color: #ffffff;
 }
 
+
+
 /*photograph.html*/
 
 #photograph{
@@ -263,3 +265,229 @@ a img:hover{
 #contact footer{
   background-color: #767671;
 }
+
+#contact .form{
+  background-color: #eaeaea;
+  padding: 30px 50px;
+}
+
+#contact .form dl dt{
+  width: 165px;
+  padding: 10px 0;
+  float: left;
+  clear: both;
+}
+
+#contact .form dl dd{
+  padding: 10px 0;
+}
+
+#contact .form .name{
+  width:240px ;
+  height: 30px;
+}
+
+#contact .form .email{
+  width:360px ;
+  height: 30px;
+}
+
+#contact .form .tel{
+  width: 240px;
+  height: 30px;
+}
+
+#contact .form .type{
+  width: 180px;
+  height: 30px;
+}
+
+#contact .form .message{
+  width: 660px;
+  height: 150px;
+}
+
+#contact .form button {
+	background-color: #009cd3;
+	color: #ffffff;
+	font-size: 30px;
+	
+	width: 150px;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 165px;
+	border-radius: 10px;
+	text-decoration: none;
+	border: 3px solid #009cd3;
+}
+
+#contact .form button:hover{
+background-color: #ffffff;
+  color: #009cd3;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#contact .form .required:after{
+  content: "*";
+  color: red;
+  
+}
+
+@media screen and (max-width:600px){
+/*画面サイズが６００ｐｘ以下のときに適用*/
+  
+  
+  body{
+    font-size: 3.5vw;
+  }
+  
+  h1{
+    font-size: 7.2vw;
+  }
+  
+  h2{
+    font-size: 6vw;
+  }
+  
+  header{
+    width: auto;
+    margin: 0 5%;
+  }
+ 
+  .logp{
+    float: none;
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .global-nav{
+    float: none;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .global-nav li{
+    display: inline;
+    float: none;
+    margin: 0 8px;
+  }
+  
+  #wrap {
+  margin-top: 80px;
+    margin-bottom: 0;
+    padding: 35px 0 0;
+  }
+  
+  .content{
+    width: 100%;
+  }
+  
+  .main{
+float: none;
+    width: auto;
+    margin: 0 5%;
+    
+  }
+  
+  h2 img {
+    max-width: 100%;
+  }
+  
+  .sidebar{
+    float: none;
+    margin:10px;
+    width: auto;
+    height: auto;
+  }
+  
+ 
+ 
+  #about .profile-txt {
+	float: none;
+   width: 100%;
+    margin: 10px;
+}
+  
+  
+  #about .career th {
+	width: 80px;
+	background-color: #f0f0f0;
+	padding: 12px 0;
+	border: 1px solid #cccccc;
+}
+  
+   #about .career td{
+     width: 240px;}
+  
+  .main-center{
+    width: auto;
+  }
+  
+  
+  #photograph h2 img{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+  }
+  
+  .movie-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.movie-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+  #contact .access iframe{
+    width: 350px;
+    height: 200px;
+  }
+  
+  #contact .form button {
+	background-color: #009cd3;
+	color: #ffffff;
+	font-size: 30px;
+	
+	width: 150px;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 70px;
+	border-radius: 10px;
+	text-decoration: none;
+	border: 3px solid #009cd3;
+}
+  
+  #contact .form .message{
+ width: 260px;
+  
+  }
+  
+  #contact .form .email{
+    width: 240px;
+  }
+  
+  #index .content h1{
+font-size: 80px;
+  }
+  
+}
+  
+  
+  
+  
+  
+ 
+  
+  
+  
